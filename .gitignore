@@ -1,0 +1,64 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Python packaging and tooling
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg
+MANIFEST
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.hypothesis/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and generated outputs
+*.log
+logs/
+outputs/
+artifacts/
+
+# Generated machine-learning model files
+*.ckpt
+*.pb
+checkpoints/
